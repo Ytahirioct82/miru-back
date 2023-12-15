@@ -43,6 +43,8 @@ app.use(
   })
 );
 
+console.log("SESSION_SECRET used:", process.env.SESSION_SECRET);
+
 app.use(passport.initialize());
 app.use(passport.session());
 
