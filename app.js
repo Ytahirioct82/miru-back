@@ -9,6 +9,7 @@ const db = require("./db/db");
 initialize(passport);
 const app = express();
 app.set("db", db);
+
 app.use(
   cors({
     credentials: true,
@@ -20,6 +21,7 @@ app.use(
     ],
   })
 );
+
 app.use(express.json({ limit: "25mb" }));
 
 app.use(cookieParser());
@@ -40,6 +42,7 @@ app.use(
     },
   })
 );
+
 app.use(passport.initialize());
 app.use(passport.session());
 
