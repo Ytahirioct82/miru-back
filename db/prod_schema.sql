@@ -1,9 +1,3 @@
-DROP DATABASE IF EXISTS daj9o01rd5cr2k;
-
-CREATE DATABASE daj9o01rd5cr2k;
-
-\c daj9o01rd5cr2k;
-
 
 -- Users table to store user information
 CREATE TABLE users (

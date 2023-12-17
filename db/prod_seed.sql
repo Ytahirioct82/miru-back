@@ -1,4 +1,4 @@
-\c daj9o01rd5cr2k;
+
 
 INSERT INTO users (name,email,password) VALUES 
 ('Younes Tahiri', 'ytahiri82@gmail.com', '$2b$10$eIZ/CGUjwHzbXeJBFtxUBeMG1duAglPNF/lzMKjfKSigDEJb..R.6'),
