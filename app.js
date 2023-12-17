@@ -1,3 +1,9 @@
+process.on("unhandledRejection", (reason, promise) => {
+  console.error("Unhandled Rejection at:", promise, "reason:", reason);
+  // Handle the error, log it, or perform necessary actions.
+  // You might want to terminate the process if it's a critical error.
+});
+
 const express = require("express");
 const cors = require("cors");
 const passport = require("passport");
